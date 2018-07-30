@@ -1,0 +1,16 @@
+<a
+  style="cursor: pointer;"
+  class="list-group-item clearfix"
+  (click)="onSelected()">
+  <div class="float-left">
+    <h4 class="list-group-item-heading">{{ article.title }}</h4>
+    <p class="list-group-item-text">{{ article.content }}</p>
+  </div>
+  <span class="float-right">
+    <img
+    [src]= "article.imagePath"
+    alt=" {{ article.title }}"
+    class="img-responsive"
+    style="max-height: 100px;">
+  </span>
+</a>

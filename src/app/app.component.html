@@ -1,1 +1,12 @@
-<app-header></app-header>
+<div class="my-header">
+<app-header (featureSelected)="onNavigate($event)"></app-header>
+  <img src="http://www.collegerank.net/wp-content/uploads/2015/08/best-college-quads-Oklahoma-State-University.jpg" alt="">
+</div>
+<div class="container" style="padding-top: 380px;">
+  <div class="row">
+    <div class="col-md-12">
+      <router-outlet></router-outlet>
+      <hr>
+    </div>
+  </div>
+</div>

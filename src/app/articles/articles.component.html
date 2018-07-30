@@ -1,0 +1,13 @@
+<div class="row">
+  <div class="col-lg-12">
+    <app-article-list></app-article-list>
+  </div>
+  <div class="col-lg-12">
+    <app-article-detail
+    *ngIf="selectedArticle; else infoText"
+    [article]="selectedArticle"></app-article-detail>
+    <ng-template #infoText>
+      <p>Please select an Article</p>
+    </ng-template>
+  </div>
+</div>
