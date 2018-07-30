@@ -1,1 +1,28 @@
+.my-header img{
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+}
 
+.my-navbar {
+  background: rgba(0,0,0,0.7) !important;
+}
+
+.my-navbar img{
+  height: 60px;
+}
+
+.nav-link {
+  color: white !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.my-navbar.middle{
+  width: 100% !important;
+  display: inline-block;
+  margin: 290px;
+  margin-left: 0px;
+}
