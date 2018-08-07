@@ -1,0 +1,10 @@
+
+<hr>
+<div class="row">
+  <div class="col-xs-12">
+    <app-education-report-item
+      *ngFor="let educationReportEl of educationReports; let i = index"
+      [educationReport]="educationReportEl"
+      [index]="i"></app-education-report-item>
+  </div>
+</div>

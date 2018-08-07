@@ -1,0 +1,10 @@
+
+<hr>
+<div class="row">
+  <div class="col-xs-12">
+    <app-sage-tip-item
+      *ngFor="let sageTipEl of sageTips; let i = index"
+      [sageTip]="sageTipEl"
+      [index]="i"></app-sage-tip-item>
+  </div>
+</div>
