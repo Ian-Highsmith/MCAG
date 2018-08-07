@@ -1,0 +1,15 @@
+/* transparent bar */
+.container.transparent {
+  background: rgba(0,0,0,0.8) !important;
+  max-width: 100% !important;
+}
+
+/* green tinted section */
+.container.transparent.green img{
+  background: rgba(0,255,255,0.5) !important;
+  width: 100% !important;
+  opacity: 0.5;
+}
+.container.transparent.green {
+  background-color: #8CC63F !important;
+}
