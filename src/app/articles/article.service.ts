@@ -1,9 +1,8 @@
 import { Article } from './article.model';
-import { Injectable, EventEmitter } from '@angular/core';
+import { Injectable } from '@angular/core';
 
 @Injectable()
 export class ArticleService {
-  articleSelected = new EventEmitter<Article>();
 
   private articles: Article[] = [
     new Article('Cabrini College News Story', 'test content test content test content test content test content test content test content test content test content test content test content test content test content test content test content',
@@ -16,5 +15,9 @@ export class ArticleService {
 
   getArticles() {
     return this.articles.slice();
+  }
+
+  getArticle(index: number) {
+    return this.articles[index];
   }
 }
