@@ -1,12 +1,28 @@
-<div class="my-header">
-<app-header (featureSelected)="onNavigate($event)"></app-header>
-  <img src="http://www.collegerank.net/wp-content/uploads/2015/08/best-college-quads-Oklahoma-State-University.jpg" alt="">
-</div>
-<div class="container" style="padding-top: 380px;">
+
+<app-header></app-header>
+<div class="container" style="padding-top: 300px;">
   <div class="row">
     <div class="col-md-12">
       <router-outlet></router-outlet>
-      <hr>
     </div>
   </div>
 </div>
+<div>
+<app-home-page></app-home-page>
+</div>
+<!-- <div class="container transparent">
+  <div class="row">
+    <div class="col-md-4">
+    <ul routerLinkActive="active"><a routerLink="/articles" class="btn btn-section"(click)="toggleState()" style="width: 200px; height: 100px; color: white;"
+      [@divState]= "state">Member College News</a></ul>
+    </div>
+    <div class="col-md-4">
+      <ul routerLinkActive="active"><a routerLink="/sageTips" class="btn btn-section"(beforclick)="toggleState()" style="width: 200px; height: 100px; color: white;"
+      [@divState]= "state">SAGE Tips</a></ul>
+    </div>
+    <div class="col-md-4">
+      <ul routerLinkActive="active"><a routerLink="/educationReports" class="btn btn-section"(click)="toggleState()" style="width: 200px; height: 100px; color: white;"
+      [@divState]= "state">Education News</a></ul>
+    </div>
+  </div>
+</div> -->

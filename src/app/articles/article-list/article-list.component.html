@@ -1,13 +1,10 @@
-<div class="row">
-  <div class="col-xs-12">
-    <button class="btn btn-success">New Article</button>
-  </div>
-</div>
+
 <hr>
 <div class="row">
   <div class="col-xs-12">
     <app-article-item
-      *ngFor="let articleEl of articles"
-      [article]="articleEl"></app-article-item>
+      *ngFor="let articleEl of articles; let i = index"
+      [article]="articleEl"
+      [index]="i"></app-article-item>
   </div>
 </div>

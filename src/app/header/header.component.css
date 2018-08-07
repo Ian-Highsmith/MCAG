@@ -1,3 +1,4 @@
+/* header image */
 .my-header img{
   width: 100%;
   height: 500px;
@@ -6,6 +7,7 @@
   top: 0;
 }
 
+/* nav bar */
 .my-navbar {
   background: rgba(0,0,0,0.7) !important;
 }
@@ -20,9 +22,7 @@
   padding-right: 20px !important;
 }
 
-.my-navbar.middle{
-  width: 100% !important;
-  display: inline-block;
-  margin: 290px;
-  margin-left: 0px;
+li a{
+  padding: 10px;
+  color: white !important;
 }
