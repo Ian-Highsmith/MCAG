@@ -10,11 +10,14 @@ import { EducationReportDetailComponent } from './education-reports/education-re
 
 import { SageTipsComponent } from './sage-tips/sage-tips.component';
 import { SageTipDetailComponent } from './sage-tips/sage-tip-detail/sage-tip-detail.component';
+import { HomePageComponent } from './home-page/home-page.component';
 
 const appRoutes: Routes = [
   // { path: '', redirectTo: '/articles', pathMatch: 'full' },
-  { path: 'articles', component: ArticlesComponent, children: [
-    { path: '', component: ArticleStartComponent },
+  // { path: '', redirectTo: HomePageComponent, pathMatch: 'full' },
+    // { path: '', redirectTo: '/', pathMatch: 'full' },
+    { path: '', component: HomePageComponent },
+    { path: 'articles', component: ArticlesComponent, children: [
     { path: ':id', component: ArticleDetailComponent }
   ] },
 

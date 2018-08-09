@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 import { EducationReport } from '../../education-report.model';
+
 @Component({
   selector: 'app-education-report-item',
   templateUrl: './education-report-item.component.html',
