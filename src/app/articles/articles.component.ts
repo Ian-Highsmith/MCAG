@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-
 import { ArticleService } from './article.service';
 
 @Component({
@@ -9,7 +8,7 @@ import { ArticleService } from './article.service';
   providers: [ArticleService]
 })
 export class ArticlesComponent implements OnInit {
-
+  imgSrc = 'http://www.collegerank.net/wp-content/uploads/2015/08/morehouse-college-quad.jpg';
   constructor() { }
 
   ngOnInit() {
