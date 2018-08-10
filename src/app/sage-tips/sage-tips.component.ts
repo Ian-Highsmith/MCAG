@@ -9,7 +9,7 @@ import { SageTipService } from './sage-tip.service';
   providers: [SageTipService]
 })
 export class SageTipsComponent implements OnInit {
-
+  imgSrc = 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Bates_College_Campus.jpg/576px-Bates_College_Campus.jpg';
   constructor() { }
 
   ngOnInit() {
