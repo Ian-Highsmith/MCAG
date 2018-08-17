@@ -24,3 +24,7 @@
   z-index: -1;
   top: 0;
 }
+
+.counter {
+  background: rgba(0,0,0,0.8) !important;
+}
