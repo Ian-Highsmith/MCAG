@@ -1,4 +1,6 @@
-
+.maingrid {
+  height: 100%;
+}
 .my-header img{
   width: 100%;
   height: 500px;
@@ -36,4 +38,12 @@
 }
 .container.transparent.green {
   background-color: #8CC63F !important;
+}
+
+.maingrid_routeroutlet {
+  padding-bottom:20px;
+}
+
+.maingrid_footer {
+
 }
