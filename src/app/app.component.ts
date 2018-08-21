@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
-import { trigger, state, style, transition, animate } from '@angular/animations';
-import * as $ from 'jquery';
-import { counterComponent } from './home-page/counter/counter.component';
+// import { trigger, state, style, transition, animate } from '@angular/animations';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

@@ -6,6 +6,8 @@ export class EducationReportService {
 
   private educationReports: EducationReport[] = [
     new EducationReport('Education News Story', 'test content test content test content test content test content test content test content test content test content test content test content test content test content test content test content'),
+    new EducationReport('Education News Story', 'test content test content test content test content test content test content test content test content test content test content test content test content test content test content test content'),
+    new EducationReport('Education News Story', 'test content test content test content test content test content test content test content test content test content test content test content test content test content test content test content'),
     new EducationReport('Education News Story 2', 'test content test content test content test content test content test content test content test content test content test content test content test content test content test content test content')
   ];
 

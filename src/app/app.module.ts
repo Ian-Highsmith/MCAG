@@ -24,7 +24,7 @@ import { SageTipListComponent } from './sage-tips/sage-tip-list/sage-tip-list.co
 import { SageTipItemComponent } from './sage-tips/sage-tip-list/sage-tip-item/sage-tip-item.component';
 import { SageTipService } from './sage-tips/sage-tip.service';
 import { HomePageComponent } from './home-page/home-page.component';
-import { CounterComponent } from './home-page/counter/counter.component';
+// import { CounterComponent } from './home-page/counter/counter.component';
 import { FooterComponent } from './footer/footer.component';
 
 
@@ -46,7 +46,7 @@ import { FooterComponent } from './footer/footer.component';
     SageTipListComponent,
     SageTipItemComponent,
     HomePageComponent,
-    CounterComponent,
+    // CounterComponent,
     FooterComponent
   ],
   imports: [
