@@ -1,3 +1,4 @@
+
 .maingrid {
   height: 100%;
 }
@@ -43,7 +44,6 @@
 .maingrid_routeroutlet {
   padding-bottom:20px;
 }
-
 .maingrid_footer {
-
+  width: 100% !important;
 }
