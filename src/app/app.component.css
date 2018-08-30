@@ -4,14 +4,13 @@
 }
 
 .maingrid_routeroutlet {
-  max-height: 100% !important
+  max-height: 100% !important;
 }
 
 .maingrid_footer {
   background-color: white !important;
   color: black;
   width: 100% !important;
-  /* position: relative; */
   bottom: 0 !important;
   left: 0;
   text-align: center;

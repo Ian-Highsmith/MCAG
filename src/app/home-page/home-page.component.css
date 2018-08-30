@@ -19,8 +19,12 @@
 }
 .my-header img{
   width: 100%;
-  height: 500px;
+  height: 700px;
   position: absolute;
   z-index: -1;
   top: 0;
+}
+
+.counter {
+  background: rgba(0,0,0,0.8) !important;
 }

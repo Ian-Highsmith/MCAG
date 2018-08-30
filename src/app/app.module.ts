@@ -25,7 +25,9 @@ import { SageTipItemComponent } from './sage-tips/sage-tip-list/sage-tip-item/sa
 import { SageTipService } from './sage-tips/sage-tip.service';
 import { HomePageComponent } from './home-page/home-page.component';
 import { FooterComponent } from './footer/footer.component';
-
+import { CounterComponent } from './home-page/counter/counter.component';
+import * as $ from 'jquery';
+// import 'jqueryui';
 
 @NgModule({
   declarations: [
@@ -45,7 +47,8 @@ import { FooterComponent } from './footer/footer.component';
     SageTipListComponent,
     SageTipItemComponent,
     HomePageComponent,
-    FooterComponent
+    FooterComponent,
+    CounterComponent
   ],
   imports: [
     BrowserModule,

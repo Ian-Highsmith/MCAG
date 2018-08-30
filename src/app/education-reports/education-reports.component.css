@@ -4,3 +4,7 @@ img {
   top:0;
   z-index: -1;
 }
+
+.container {
+  padding: 10px;
+}
